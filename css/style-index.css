@@ -248,3 +248,143 @@ section iframe {
 .form-container button[type="submit"]:hover {
   background-color: #1f8b4c;
 }
+.imagemfaixa {
+  width: 100%;
+  padding-top: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #003d99;
+  color: white;
+  margin-top: 60px;
+  font-size: 18px;
+}
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 600px para baixo */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+  .nav-destaque ul li a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+
+  section h1 {
+    font-size: 22px;
+  }
+
+  .imagemfaixa {
+    padding-top: 1rem;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}
+
+/* 600px para cima */
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    padding: 14px 20px;
+  }
+
+  .nav-destaque ul li a {
+    font-size: 20px;
+    padding: 20px 30px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+/* 768px para cima */
+@media (min-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 16px 24px;
+  }
+
+  .nav-destaque ul li a {
+    font-size: 22px;
+    padding: 22px 36px;
+  }
+
+  iframe {
+    height: 280px;
+  }
+}
+
+/* 992px para cima */
+@media (min-width: 992px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 18px 28px;
+  }
+
+  .nav-destaque ul li a {
+    font-size: 24px;
+    padding: 24px 40px;
+  }
+
+  iframe {
+    height: 320px;
+  }
+}
+
+/* 1300px para cima */
+@media (min-width: 1300px) {
+  nav ul li a {
+    font-size: 22px;
+    padding: 20px 32px;
+  }
+
+  .nav-destaque ul li a {
+    font-size: 26px;
+    padding: 26px 48px;
+  }
+
+  iframe {
+    height: 360px;
+  }
+}
