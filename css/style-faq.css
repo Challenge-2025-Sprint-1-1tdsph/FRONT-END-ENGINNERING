@@ -134,3 +134,18 @@ h1 {
 .faq-item.open .arrow {
   transform: rotate(90deg);
 }
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #014ba0;
+  color: white;
+  margin-top: 50px;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
