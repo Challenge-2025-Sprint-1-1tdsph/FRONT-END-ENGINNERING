@@ -135,3 +135,101 @@ footer {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
 }
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 600px) {
+  .suporte {
+    padding: 25px 15px;
+  }
+
+  .suporte h2 {
+    font-size: 26px;
+  }
+
+  .suporte p {
+    font-size: 17px;
+  }
+
+  .botao-suporte {
+    font-size: 18px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    padding: 14px 20px;
+  }
+
+  .suporte {
+    padding: 30px 20px;
+  }
+
+  .suporte h2 {
+    font-size: 28px;
+  }
+
+  .suporte p {
+    font-size: 18px;
+  }
+
+  .botao-suporte {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav ul li a {
+    font-size: 20px;
+    padding: 16px 24px;
+  }
+
+  .suporte {
+    padding: 35px 25px;
+  }
+
+  .suporte h2 {
+    font-size: 32px;
+  }
+
+  .suporte p {
+    font-size: 20px;
+  }
+
+  .botao-suporte {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .suporte {
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+
+  .suporte h2 {
+    font-size: 36px;
+  }
+
+  .suporte p {
+    font-size: 22px;
+  }
+
+  .botao-suporte {
+    font-size: 24px;
+  }
+}
