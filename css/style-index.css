@@ -80,3 +80,36 @@ nav ul li a:hover {
   transform: scale(1.08);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
+.nav-destaque {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.nav-destaque ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-destaque ul li a {
+  display: inline-block;
+  background-color: #08d6ff;
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 25px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  border: 3px solid #000;
+  text-transform: uppercase;
+}
+
+.nav-destaque ul li a:hover {
+  background-color: #a2e5ff;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+main h1 {
+  color: #000000;
+}
